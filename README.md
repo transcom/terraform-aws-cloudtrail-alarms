@@ -32,7 +32,7 @@ These alarms were adapted from those in
 
 ```hcl
 module "cloudtrail_alarms" {
-  source         = "trussworks/cloudtrail-alarms/aws"
+  source         = "transcom/cloudtrail-alarms/aws"
   version        = "~> 1.0.0"
 
   alarm_sns_topic_arn = aws_sns_topic.my_alerts.arn
